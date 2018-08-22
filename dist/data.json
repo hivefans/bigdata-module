@@ -1,1 +1,1 @@
-{"hbase":{"n":"hbase","p":"/hbase","d":"HBase 开源的非关系型分布式列式数据库(NoSQL)"},"clickhouse":{"n":"clickhouse","p":"/clickhouse","d":"ClickHouse 是面向 OLAP 的分布式列式 DBMS"}}
+{"hive":{"n":"hive","p":"/hive","d":"Hive 是一个基于Hadoop的开源数据仓库工具."},"hbase":{"n":"hbase","p":"/hbase","d":"HBase 开源的非关系型分布式列式数据库(NoSQL)"},"kylin":{"n":"kylin","p":"/kylin","d":"Apache Kylin™是一个开源的分布式分析引擎"},"phoenix":{"n":"phoenix","p":"/phoenix","d":"Phoenix是构建在HBase之上的关系型数据库层"},"clickhouse":{"n":"clickhouse","p":"/clickhouse","d":"ClickHouse 是面向 OLAP 的分布式列式 DBMS"}}

@@ -4,7 +4,7 @@ hbase
 HBase 开源的非关系型分布式列式数据库(NoSQL)
 
 ## 补充说明
-```
+
 **HBase** HBase是一个开源的非关系型分布式数据库（NoSQL），它参考了谷歌的BigTable建模，实现的编程语言为 Java。它是Apache软件基金会的Hadoop项目的一部分，运行于HDFS文件系统之上，为 Hadoop 
 
 提供类似于BigTable 规模的服务。因此，它可以容错地存储海量稀疏的数据。
@@ -29,7 +29,7 @@ HBase在列上实现了BigTable论文提到的压缩算法、内存操作和布�
   
   - 高性能：底层的LSM数据结构，使得HBase具备非常高的写入性能。RowKey有序排列、主键索引和缓存机制使得HBase具备一定的随机读写性能。
 
-```
+
 
 ### 历史
 
