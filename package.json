@@ -1,0 +1,47 @@
+{
+  "name": "linux-command",
+  "version": "1.2.0",
+  "description": "Linux Command",
+  "main": "dist/data.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/compile.js && npm run deploy",
+    "deploy": "node build/deploy.js",
+    "build:css": "stylus -u autoprefixer-stylus template/styl/index.styl -o .deploy/ -c",
+    "watch:css": "stylus -u autoprefixer-stylus -w template/styl/index.styl -o .deploy/ -c"
+  },
+  "keywords": [
+    "Linux",
+    "Command"
+  ],
+  "author": "kenny wang <wowohoo@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaywcjlove/linux-command.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "autoprefixer-stylus": "^0.11.0",
+    "cheerio": "^0.22.0",
+    "colors-cli": "^1.0.7",
+    "ejs": "^2.5.2",
+    "gh-pages": "^0.12.0",
+    "highlight.js": "^9.8.0",
+    "loading-cli": "^1.0.2",
+    "markdown-it": "^8.4.0",
+    "marked": "^0.3.6",
+    "marked3": "^0.5.1",
+    "ssr": "^1.1.1",
+    "stylus": "^0.54.5",
+    "superagent": "^3.0.0",
+    "to-markdown": "^3.0.3",
+    "uglify-js": "^2.7.4",
+    "watch": "^1.0.1"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/jaywcjlove/linux-command/issues"
+  },
+  "homepage": "https://jaywcjlove.github.io/linux-command/"
+}

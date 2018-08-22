@@ -1,0 +1,16 @@
+<div class="header<%if(type=='list'){%> header_list<%}%>">
+    <div class="logo">
+        <a href="/"><img src=<%=relative_path%>img/bigdata.png>
+        </a>
+    </div>
+    <div class="search">
+        <ul class="search-list" id="result">
+            <!-- <li><a href="#"><strong>find</strong> - 指定目录下查找文件。</a></li> -->
+        </ul>
+        <input type="text" class="query" id="query" autocomplete="off" autofocus="autofocus" placeholder="大数据组件搜索"/>
+        <div class="enter-input">
+            <input type="hidden" id="current_path" value="<%=current_path%>">
+            <button id="search_btn">搜索</button>
+        </div>
+    </div>
+</div>
