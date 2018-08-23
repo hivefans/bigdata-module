@@ -14,11 +14,11 @@
     "Linux",
     "Command"
   ],
-  "author": "kenny wang <wowohoo@qq.com>",
+  "author": "hivefans <hivefans@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaywcjlove/linux-command.git"
+    "url": "git+https://github.com/hivefans/bigdata-module.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.1",
@@ -41,7 +41,7 @@
   },
   "dependencies": {},
   "bugs": {
-    "url": "https://github.com/jaywcjlove/linux-command/issues"
+    "url": "https://github.com/hivefans/bigdata-module/issues"
   },
-  "homepage": "https://jaywcjlove.github.io/linux-command/"
+  "homepage": "https://github.com/hivefans/bigdata-module"
 }
